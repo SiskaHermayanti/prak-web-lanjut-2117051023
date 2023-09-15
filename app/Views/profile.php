@@ -44,6 +44,9 @@ h1 {
     <div class="main"> 
         <img class="img" src="https://avatars.githubusercontent.com/u/92504989?s=400&u=31e563b79e161f0a9dc6357fb3e52a8e90623333&v=4">
         <h1>
+        <table>
+            <tr aria-colspan="3">
+                <td><img src="<?=base_url('assets/img/')?>" size="200" height="130" class="gambar">
             <tr>
                 <td>Nama</td>
                 <td>:</td>
