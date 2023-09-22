@@ -21,15 +21,17 @@
                 <td>:</td>
                 <td><?= $nama ?></td>
             </tr><br>
-            <!-- <tr>
-                <td>Kelas</td>
-                <td>:</td>
-                <td></td>
-            </tr><br> -->
+           
             <tr>
                 <td>NPM</td>
                 <td>:</td>
                 <td><?= $npm ?></td>
+            </tr><br>
+
+            <tr>
+                <td>Kelas</td>
+                <td>:</td>
+                <td><?= $kelas ?></td>
             </tr><br>
         </table>
         </h1>

@@ -20,7 +20,18 @@
             <td>NPM</td>
             <td><input class="form1" type="text" name="npm"></td>
         </tr>
+        <tr>
+            <td>Kelas</td>
+            <td>
+                <select class="form1" name="kelas" id="kelas">
+                    <?php foreach($kelas as $item):?>
+                        <option value="<?=$item['id']?>"><?=$item['nama_kelas']?></option>
+                    <?php endforeach;?>
+                </select>
+            </td>
+        </tr>
         </table>
+        
         <tr>
             <td><input class="btn" type="submit" value="Simpan"></td>
         </tr>
