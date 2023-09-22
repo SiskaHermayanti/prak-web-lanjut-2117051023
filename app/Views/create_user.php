@@ -3,25 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="<?=base_url("assets/css/form.css")?>">
     <title>Document</title>
 </head>
 <body>
+ 
 <form action="<?=base_url('user/store')?>" method="post">
+<div class="container"> 
     <table>
         <tr>
             <td>Nama</td>
-            <td>:</td>
-            <td><input type="text" name="nama"></td>
+           
+            <td><input class="form" type="text" name="nama"></td>
         </tr>
         <tr>
             <td>NPM</td>
-            <td>:</td>
-            <td><input type="text" name="npm"></td>
+            <td><input class="form1" type="text" name="npm"></td>
         </tr>
+        </table>
         <tr>
-            <td><input type="submit" value="Simpan"></td>
+            <td><input class="btn" type="submit" value="Simpan"></td>
         </tr>
-    </table>
+    
+    </div>
     </form>
+
 </body>
 </html>

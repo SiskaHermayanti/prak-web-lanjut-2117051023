@@ -1,0 +1,31 @@
+
+body {
+    padding: 100px;  
+    font-family: "Roboto", sans-serif; 
+    text-align: center; 
+    /* background-color: #6944ff; */
+}
+.main {
+    width: 750px;
+    height: 400px;
+    background-color: #F8F0E5;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid #00008B;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Untuk mengatur konten di tengah secara horizontal */
+    justify-content: center; /* Untuk mengatur konten di tengah secara vertikal */
+}
+.img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+h1 {
+    font-size: 25px;
+    color: #00008B;
+    margin-left: auto;
+    margin-right: auto;
+}
