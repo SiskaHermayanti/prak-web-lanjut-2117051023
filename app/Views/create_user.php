@@ -3,7 +3,7 @@
 <?= $this->section('content')?>
 
 <div class="container">
-<form action="<?=base_url('user/store')?>" method="post">
+<form action="<?=base_url('user/store')?>" method="post" enctype="multipart/form-data">
 
 <div class="row justify-content-center align-items-center h-100">
     <div class="col-6">
@@ -43,7 +43,13 @@
             </div>
         </div>
 
+        <label> Choose the File to upload: </label>
+    <input type="file" id="foto" name="foto"/> <br /><br />
+
     <button type="submit" name="simpan" class="btn btn-primary">Simpan</button>
+
+    
+
 	</form>
     </div>
 </div>
