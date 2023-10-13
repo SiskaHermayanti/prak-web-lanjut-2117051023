@@ -53,16 +53,15 @@ body {
 /* list user */
 .containerlist {
 	position: absolute;
-    top: 100px;
+    top: 50px;
     left: 100px;
     right: 100px;
-    bottom: 100px;
- 
-	padding: 30px 30px;
+    bottom: 50px;
+	overflow: auto;
+	padding: 5% 5%;
 	background-color: #fafafa;
-	border-radius: 20px;
+	border-radius: 20px; 
 }
-
 
 
 /* .form{
