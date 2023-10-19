@@ -19,4 +19,13 @@ $routes->get('/user', 'UserController::index');
 
 $routes->post('/user/profile', 'UserController::profile');
 $routes->get('/user', [UserController::class, 'index']);
+
+// upload delete
+$routes->get('/user/(:any)/edit', [UserController::class, 'edit']);
+$routes->put('/user/(:any)', [UserController::class, 'update']);
+
+// delete data
+$routes->delete('/user/(:any)', [UserController::class, 'destroy']);
+
+// routes show letaknya harus yang paling bawah
 $routes->get('/user/(:any)', [UserController::class, 'show']);
